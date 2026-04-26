@@ -20,7 +20,7 @@
       .card {
         border-radius: 20px;
         padding: 20px;
-        background: rgba(0, 0, 0, 0.427);
+        background: rgba(128, 128, 128, 0.049);
         backdrop-filter: blur(10px);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
       }
@@ -98,7 +98,7 @@
           await navigator.clipboard.writeText(text);
 
           let original = btn.innerHTML;
-          btn.innerHTML = "✅ Copied!";
+          btn.innerHTML = "Copied!";
 
           setTimeout(() => {
             btn.innerHTML = original;
